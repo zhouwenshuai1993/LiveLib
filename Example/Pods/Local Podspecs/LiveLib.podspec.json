@@ -1,0 +1,22 @@
+{
+  "name": "LiveLib",
+  "version": "0.1.0",
+  "summary": "A short description of LiveLib.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/zhouwenshuai1993",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "zhouwenshuai1993": "1256577290@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/zhouwenshuai1993/LiveLib.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "LiveLib/Classes/**/*"
+}

@@ -1,0 +1,6 @@
+framework module LiveLib {
+  umbrella header "LiveLib-umbrella.h"
+
+  export *
+  module * { export * }
+}

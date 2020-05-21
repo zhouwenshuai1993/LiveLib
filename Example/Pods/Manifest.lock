@@ -1,0 +1,16 @@
+PODS:
+  - LiveLib (0.1.0)
+
+DEPENDENCIES:
+  - LiveLib (from `../`)
+
+EXTERNAL SOURCES:
+  LiveLib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LiveLib: 04771ce196026dc7f50d6fd89884db7b0fb7310e
+
+PODFILE CHECKSUM: f7314f123c50d6311b6437dfecbf309ca3d67165
+
+COCOAPODS: 1.8.3
