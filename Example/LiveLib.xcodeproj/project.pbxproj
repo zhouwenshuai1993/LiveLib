@@ -38,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		03F93949FE058C1860FC401C /* Pods-LiveLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiveLib_Example.debug.xcconfig"; path = "Target Support Files/Pods-LiveLib_Example/Pods-LiveLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		1EE14DF553DFE445F3E8296C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		1EE14DF553DFE445F3E8296C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		30352324BFDB859CD5B7758A /* Pods-LiveLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiveLib_Tests.debug.xcconfig"; path = "Target Support Files/Pods-LiveLib_Tests/Pods-LiveLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		4768DD863342BFE43E57DDF5 /* Pods-LiveLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiveLib_Tests.release.xcconfig"; path = "Target Support Files/Pods-LiveLib_Tests/Pods-LiveLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* LiveLib_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiveLib_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -61,11 +61,11 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		82ECC858FAF025D526017A26 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		82ECC858FAF025D526017A26 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		85AB12A1415D848B036A29DC /* Pods_LiveLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LiveLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AA0CDD20B1A980A66D0B91B2 /* Pods_LiveLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LiveLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D661D0C651A94791DC386394 /* LiveLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LiveLib.podspec; path = ../LiveLib.podspec; sourceTree = "<group>"; };
+		D661D0C651A94791DC386394 /* LiveLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LiveLib.podspec; path = ../LiveLib.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		ED97B79228AEFF3E21ED3BA7 /* Pods-LiveLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiveLib_Example.release.xcconfig"; path = "Target Support Files/Pods-LiveLib_Example/Pods-LiveLib_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -183,7 +183,6 @@
 				30352324BFDB859CD5B7758A /* Pods-LiveLib_Tests.debug.xcconfig */,
 				4768DD863342BFE43E57DDF5 /* Pods-LiveLib_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
